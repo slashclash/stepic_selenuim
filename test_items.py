@@ -4,7 +4,7 @@ link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
 def is_element_present(browser):
     try:
-        browser.find_element_by_css_selector("buttonbtn-add-to-basket")
+        browser.find_element_by_css_selector("button.btn-add-to-basket")
         return True
     except NoSuchElementException:
         return False
